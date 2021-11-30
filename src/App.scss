@@ -1,1 +1,19 @@
 @use "./assets/sass/_variables.scss" as *;
+@use "./assets/sass/_typography.scss" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    background-image: linear-gradient(#74ebd5, #acb6e5);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.ticketTracker {
+    font-size: 50px;
+    padding: 20px;
+}
