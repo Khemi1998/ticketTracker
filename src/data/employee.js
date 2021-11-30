@@ -50,5 +50,15 @@ const team = [
   name: "Phillip Mitchell", 
   role: "Hard Man" 
 }, 
+{ 
+  id: 11, 
+  name: "Dave Grohl", 
+  role: "Hard Man" 
+}, 
+{ 
+  id: 12, 
+  name: "John Frusciante", 
+  role: "Hard Man" 
+}, 
 ] 
 export default team; 
