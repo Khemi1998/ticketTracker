@@ -2,6 +2,7 @@
 import React from "react";
 import "./Counter.scss";
 
+
 const Counter = () => {
   return (
     <div className="EmployeeCard__counter">
