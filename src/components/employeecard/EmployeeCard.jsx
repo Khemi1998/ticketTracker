@@ -4,11 +4,19 @@ import "./EmployeeCard.scss";
 import Counter from "../counter/Counter";
 
 const EmployeeCard = (props) => {
-    return <div class="EmployeeCard__employees">
-      <h2>Name: {props.EmployeeCard_employees__name}</h2>
-      <h3>Role: {props.EmployeeCard_employees__role}</h3>
-      <Counter />
-    </div>;
-  };
-  
-  export default EmployeeCard;
+  const { EmployeeCardArr } = props;
+
+  const employeCards = EmployeeCardArr.map((employee, index) => {
+    return (
+      <div key={index} class="EmployeeCard__employee">
+        <h2>Name: {employee.name}</h2>
+        <h3>Role: {employee.role}</h3>
+        <Counter />
+      </div>
+    );
+  });
+
+  return <div class="EmployeeCard__employees">{employeCards}</div>;
+};
+
+export default EmployeeCard;

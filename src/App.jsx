@@ -7,10 +7,7 @@ const App = () => {
     <div className="app">
       <h1 className="ticketTracker">Ticket Tracker</h1>
       <main class="ticketTracker__cards">
-        <EmployeeCard
-          EmployeeCard_employees__name={team[0].name}
-          EmployeeCard_employees__role={team[0].role}
-        />
+        <EmployeeCard EmployeeCardArr={team} />
       </main>
     </div>
   );
