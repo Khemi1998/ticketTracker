@@ -8,7 +8,7 @@ const EmployeeCard = (props) => {
 
   const employeCards = EmployeeCardArr.map((employee, index) => {
     return (
-      <div key={index} class="EmployeeCard__employee">
+      <div key={index} className="EmployeeCard__employee">
         <h2>Name: {employee.name}</h2>
         <h3>Role: {employee.role}</h3>
         <Counter />
@@ -16,7 +16,7 @@ const EmployeeCard = (props) => {
     );
   });
 
-  return <div class="EmployeeCard__employees">{employeCards}</div>;
+  return <div className="EmployeeCard__employees">{employeCards}</div>;
 };
 
 export default EmployeeCard;

@@ -1,0 +1,17 @@
+button {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    color: white;
+}
+
+button:hover {
+    font-size: 35px;
+    border-radius: 50px;
+}
+
+.counter__amount {
+    margin-top: 10px;
+}
