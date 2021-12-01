@@ -1,18 +1,19 @@
 button {
-    height: 30px;
-    width: 30px;
-    background-color: transparent;
-    border: transparent;
-    font-size: 30px;
-    color: white;
-    padding-bottom: 10px;
-}
-
-button:hover {
-    font-size: 35px;
-    border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: transparent;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 10px;
 }
 
 .counter__amount {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  button:hover {
+    font-size: 35px;
+  }
 }
