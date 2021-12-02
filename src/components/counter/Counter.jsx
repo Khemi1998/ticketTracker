@@ -17,7 +17,7 @@ const Counter = () => {
 
   return (
     <div className="EmployeeCard__counter">
-      <h3>Counter</h3>
+      <h3>Tickets</h3>
       <section className="counter__container">
         <button
           className="counter__buttons__increment"
