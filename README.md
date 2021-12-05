@@ -13,8 +13,8 @@ On mobile version the user can scroll horizontally to view the employees' due ti
 # Pseudo-Code
 
 <ul>
-<li>Create mobile styling<li>
-<li>Create desktop styling<li>
-<li>Map through array of objects employe data<li>
-<li>Add counter<li>
+<li>Create mobile styling
+<li>Create desktop styling
+<li>Map through array of objects employe data
+<li>Add counter
 </ul>
