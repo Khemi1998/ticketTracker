@@ -1,7 +1,7 @@
 @use "../../assets/sass/_buttons.scss" as *;
 @use "../../assets/sass/variables" as *;
 
-.EmployeeCard__counter {
+.counter {
     height: 170px;
     width: 150px;
     background-color: $primary-color;
@@ -11,7 +11,7 @@
     font-size: 15px;
 }
 
-.counter__container {
+.counter__button-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,8 +21,5 @@
 
 .counter__amount {
     font-size: 28px;
-}
-
-.counter__amount{
     margin-bottom: 5px;
 }

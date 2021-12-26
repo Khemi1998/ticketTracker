@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.ticketTracker__cards {
+.tickettracker__cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,12 +21,12 @@
     gap: 50px;
 }
 
-.ticketTracker {
+.tickettracker__heading {
     font-size: 50px;
     padding: 20px;
 }
 
-.ticketTracker__scroll {
+.tickettracker--scroll {
     height: 120px;
     width: 120px;
 }
@@ -36,7 +36,7 @@
         height: auto;
     }
 
-    .ticketTracker__scroll {
+    .tickettracker--scroll {
        display: none;
     }
 }

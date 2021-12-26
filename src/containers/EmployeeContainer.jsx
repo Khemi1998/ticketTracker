@@ -8,13 +8,13 @@ const EmployeeContainer = (props) => {
 
   const employeCards = EmployeeCardArr.map((employee, index) => {
     return (
-      <div className="EmployeeCard__employee">
+      <div className="employee">
         <EmployeeCard key={index} name={employee.name} role={employee.role} />
       </div>
     );
   });
 
-  return <div className="EmployeeCard__employees">{employeCards}</div>;
+  return <div className="employee__container">{employeCards}</div>;
 };
 
 export default EmployeeContainer;

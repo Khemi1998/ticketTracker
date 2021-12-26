@@ -6,11 +6,11 @@ import EmployeeContainer from "./containers/EmployeeContainer";
 const App = () => {
   return (
     <div className="app">
-      <h1 className="ticketTracker">Ticket Tracker</h1>
-      <main className="ticketTracker__cards">
+      <h1 className="tickettracker__heading">Ticket Tracker</h1>
+      <main className="tickettracker__cards">
         <EmployeeContainer EmployeeCardArr={team} />
       </main>
-      <img className="ticketTracker__scroll"src={scroll} alt="scrollIcon"/>
+      <img className="tickettracker--scroll"src={scroll} alt="scrollIcon"/>
     </div>
   );
 };

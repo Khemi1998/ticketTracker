@@ -8,7 +8,7 @@ const EmployeeCard = (props) => {
 
   return (
     <>
-      <h2 className="EmployeeCard__employee__name">{name}</h2>
+      <h2 className="employeecard__name">{name}</h2>
       <h3>{role}</h3>
       <Counter />
     </>
