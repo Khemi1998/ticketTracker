@@ -10,6 +10,14 @@ https://khemi1998.github.io/ticketTracker/
 
 The purpose of this project was to create a ticket tracker for 12 employees to familiarise myself with React.
 
+<h2>Technologies 🧠</h2>
+<ul>
+  <li>JavaScript</li>
+  <li>React</li>
+  <li>SCSS</li>
+  <li>HTML</li>
+</ul>
+
 # ▫️◽️ Design ◽️▫️
 
 On mobile version the user can scroll horizontally to view the employees' due tickets. On desktop the tickets are presented in a 4 x 3 grid.
